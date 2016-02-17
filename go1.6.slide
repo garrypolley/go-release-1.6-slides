@@ -17,8 +17,6 @@ THEY WILL NOT WORK FROM TALKS.GOLANG.ORG UNTIL AFTER GO 1.6 IS RELEASED
 
 TO RUN THEM LOCALLY YOU WILL NEED GO 1.6BETA1 OR LATER
 
-.background images/Go_release_party_1.6_wide.png
-
 * Welcome
 
 Today (Feb 17th) is an attempt at a release party for Go 1.6 involving as many Go user groups as possible.
@@ -29,8 +27,6 @@ This presentation is based _heavily_ on the [[http://tip.golang.org/doc/go1.6][o
 
 This presentation contains lots of links to further reading. You can find it online, [[http://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide][talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide]]
 
-.background images/Go_release_party_1.6_wide.png
-
 * Go 1.6
 
 The latest Go release, version 1.6, arrives six months after 1.5.
@@ -40,8 +36,6 @@ Most of its changes are in the implementation of the language, runtime, and libr
 As always, the release maintains the [[http://tip.golang.org/doc/go1compat.html][Go 1 compatibility guarantee]].
 
 Almost all Go programs are expected to continue to compile and run as before.
-
-.background images/Go_release_party_1.6_wide.png
 
 * The Go project by the numbers
 
@@ -58,8 +52,6 @@ Release timeline:
 - Go 1.4 released 10th December, 2014
 - [[https://talks.golang.org/2015/state-of-go.slide#8][Go 1.5]] released 19th August, 2015
 - Go 1.6 is expected to be released February, 2016
-
-.background images/Go_release_party_1.6_wide.png
 
 * Supported platforms
 
@@ -276,8 +268,6 @@ This should probably be considered _experimental_ and only available on linux/am
 
 * Shared library support
 
-TODO: SHOW EXAMPLE OF COMPILING USING SHARED LIBRARIES
-
 _note:_ dynamic loading of code at run time (plugins) is still not supported.
 
 * Performance
@@ -414,8 +404,6 @@ This is useful if you have an unknown error value and want
 On Unix-like systems, when a write to os.Stdout or os.Stderr (more precisely, an os.File opened for file descriptor 1 or 2) fails due to a broken pipe error, the program will raise a SIGPIPE signal. By default this will cause the program to exit; this may be changed by calling the os/signal Notify function for syscall.SIGPIPE. A write to a broken pipe on a file descriptor other 1 or 2 will simply return syscall.EPIPE (possibly wrapped in os.PathError and/or os.SyscallError) to the caller.
 
 The old behavior of raising an uncatchable SIGPIPE signal after 10 consecutive writes to a broken pipe no longer occurs.
-
-TODO: WRITE EXAMPLE
 
 * regexp
 
