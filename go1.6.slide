@@ -334,7 +334,6 @@ The next release, GCC 6, will have the Go 1.5 version of gccgo.
 
 Due to release scheduling, it is likely that Go 1.6 will not be in a GCC release until GCC 7.
 
-.background images/Go_release_party_1.6_wide.png
 
 * Minor standard library changes
 
