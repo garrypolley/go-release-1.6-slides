@@ -233,8 +233,6 @@ The most likely problem caused by enabling vendoring by default happens in sourc
 
 `server-two` uses the `mux` package in `vendor`.
 
-* Vendoring demo
-
 * Vendored code matches ./...
 
 If you're used to doing
