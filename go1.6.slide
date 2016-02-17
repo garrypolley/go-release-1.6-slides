@@ -145,7 +145,7 @@ Externally the compiler toolchain is mostly unchanged compared to Go 1.5.
 
 Internally, the most significant change is that the parser is now hand-written instead of generated from yacc.
 
-The new SSA compiler backend is slated to land, for amd64 only at this stage, in Go 1.7.
+The new [[https://en.wikipedia.org/wiki/Static_single_assignment_form][SSA compiler]] backend is slated to land, for amd64 only at this stage, in Go 1.7.
 
 * Changes to the -X flag
 
