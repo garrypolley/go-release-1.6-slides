@@ -1,13 +1,17 @@
 Go 1.6 release party
 Kansas City Go-lang
-17 February 2016
+17 Feb 2016
 
 Garry Polley
 @garrypolley
-http://talks.godoc.org/github.com/garrypolley/gosyd/go1.6.slide
-original: http://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide
 
-.image images/Go_release_party_1.6_portrait_EN.png
+http://talks.godoc.org/github.com/garrypolley/go-release-1.6-slides/go1.6.slide
+
+http://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide
+
+* Go 1.6 Party
+
+.image images/Go_release_party_1.6_portrait_EN.png 650 _
 
 * DEMONSTRATIONS
 
@@ -16,6 +20,7 @@ THE CODE SAMPLES IN THIS SLIDE DECK REQUIRE GO 1.6
 THEY WILL NOT WORK FROM TALKS.GOLANG.ORG UNTIL AFTER GO 1.6 IS RELEASED
 
 TO RUN THEM LOCALLY YOU WILL NEED GO 1.6BETA1 OR LATER
+
 
 * Welcome
 
@@ -335,6 +340,7 @@ The next release, GCC 6, will have the Go 1.5 version of gccgo.
 Due to release scheduling, it is likely that Go 1.6 will not be in a GCC release until GCC 7.
 
 
+
 * Minor standard library changes
 
 As well as the big improvements mentioned above, the standard library received many bug fixes and minor improvements.
@@ -424,3 +430,7 @@ The time package's Parse function has always rejected any day of month larger th
 In Go 1.6, Parse now also rejects February 29 in non-leap years, February 30, February 31, April 31, June 31, September 31, and November 31.
 
 .play go1.6/parse.go
+
+* Go 1.6 Party Time
+
+.image images/Go_release_party_1.6_wide.png 650 _
